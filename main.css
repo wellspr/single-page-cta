@@ -33,8 +33,6 @@ body {
         align-items: center;
         width: 100%;
         height: 60%;
-        /* padding: 10% 5% 40%; */
-        /* border: solid 1px; */
     }
 
     .text-box {
@@ -84,14 +82,6 @@ body {
 
 @media (orientation: landscape){
 
-    /* .main-container {
-        justify-content: center;
-        align-items: flex-end;
-        background-image: url("https://images.unsplash.com/photo-1513348197457-df49c7c9b0a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-        background-size: cover;
-        background-position: center;
-    } */
-
     .main-container {
         display: flex;
         flex-direction: column;
@@ -113,8 +103,6 @@ body {
         align-items: center;
         width: 50%;
         height: 100%;
-        /* padding: 10% 5% 40%; */
-        /* border: solid 1px; */
     }
 
     .text-box {
@@ -162,165 +150,3 @@ body {
 
 
 }
-
-@media (min-width: 450px){
-
-    /* .data-container {
-        padding: 27.438px;
-    }
-
-    .heading {
-        font-size: 50px;
-        padding: 24.703px
-    }
-
-    .paragraph {
-        font-size: 22.5px;
-        padding: 24.703px
-    }
-
-    .button-box{
-        padding: 24.703px;
-    }
-    .button {
-        padding: 15px 35px;
-    }
-
-    .button-link {
-        font-size: 18px;
-    } */
-}
-
-@media (max-height: 450px){
-
-    /* .data-container{
-        border: solid 1px red;
-    }
-
-    .text-box{
-        padding: 2vh;
-    }
-    .heading{
-        font-size: 8vh;
-        padding: 1vh;
-    }
-    .paragraph{
-        font-size: 5vh;
-        padding: 1vh;
-    }
-
-    .button-box{
-        padding: 0;
-    }
-    .button{
-        padding: 3vh 10vh;
-    }
-    .button-link{
-        font-size: 5vh;
-    } */
-
-}
-
-
-@media (min-width: 768px){
-
-    /* .main-container {
-        justify-content: center;
-        align-items: flex-end;
-        background-image: url("https://images.unsplash.com/photo-1513348197457-df49c7c9b0a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-        background-size: cover;
-        background-position: center;
-    }
-
-    .data-container {
-        width: 60%;
-        height: 50vh;
-    }
-
-    .heading {
-        font-size: 5vw;
-    }
-
-    .paragraph {
-        font-size: 3vw;
-    }
-
-    .button {
-        padding: 1.5vw 5vw;
-    }
-
-    .button-link {
-        font-size: 2vw;
-    } */
-}
-
-
-@media (min-width: 1200px){
-
-    /* .data-container {
-        width: 50vw;
-        padding: 27.438px;
-    }
-
-    .heading {
-        font-size: 59.95px;
-        padding: 24.703px;
-    }
-
-    .paragraph {
-        font-size: 35.97px;
-        padding: 24.703px;
-    }
-
-    .button-box{
-        padding: 24.703px;
-    }
-    .button {
-        padding: 17.985px 59.950px;
-    }
-
-    .button-link {
-        font-size: 23.98px;
-    } */
-}
-
-
-
-/* @media (max-height:500px){
-
-    .main-container {
-        justify-content: center;
-        align-items: flex-end;
-        background-image: url("https://images.unsplash.com/photo-1513348197457-df49c7c9b0a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-        background-size: cover;
-        background-position: center;
-    }
-
-    .data-container{
-        justify-content: center;
-        width: 60vw;
-        height: 100%;
-    }
-
-    .text-box{
-        padding: 5vh;
-    }
-    .heading{
-        font-size: 10vh;
-        padding: 2vh;
-    }
-    .paragraph{
-        font-size: 5vh;
-    }
-
-    .button-box{
-        padding: 0;
-    }
-    .button{
-        padding: 3vh 10vh;
-    }
-    .button-link{
-        font-size: 5vh;
-    }
-
-} */
